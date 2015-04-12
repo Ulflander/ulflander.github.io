@@ -1984,17 +1984,13 @@ textarea {
 }
 
 body {
-  color: #fff;
-  background: #2a2a2a url(../img/hero_shot.jpg) no-repeat center center fixed; 
+  color: #333;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 
-.content {
-    padding-top: 50px;
-}
 
 a,a:active,a:hover,a:visited,body {
   font-family: Myriad,myriad-pro,'Helvetica Neue',Verdana,sans-serif;
@@ -2003,7 +1999,7 @@ a,a:active,a:hover,a:visited,body {
 }
 
 a,a:active,a:hover,a:visited {
-  color: #fff;
+  color: #212121;
 }
 
 header {
@@ -2058,7 +2054,7 @@ section {
 }
 
 p {
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 
 h1 {
@@ -2088,36 +2084,11 @@ button {
   color: #fff;
 }
 
-@media only screen and (min-width:700px) {
-  .content {
-    width: 40%;
-    margin: 0 5%;
-  }
-
+.content {
+    max-width: 600px;
+    padding: 0 30px;
+    margin: 50px auto;
 }
-
-@media only screen and (max-width:700px) {
-body {
-
-  background: #2a2a2a;
-}
-  section {
-    padding: 20px 30px;
-  }
-
-  header li {
-    width: 50px;
-  }
-
-  header li a {
-    font-size: 24px;
-  }
-
-  h1 {
-    font-size: 50px;
-  }
-}
-
 
 .ir {
   background-color: transparent;
