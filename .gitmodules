@@ -3,4 +3,4 @@
 	url = https://github.com/Ulflander/spread.git
 [submodule "compendium-js"]
 	path = compendium-js
-	url = git@github.com:Ulflander/compendium-js.git
+	url = https://github.com/Ulflander/compendium-js.git
